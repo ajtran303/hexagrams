@@ -389,4 +389,5 @@ hexagrams = [
   }
 ]
 
-ap hexagrams
+ap hexagrams unless ARGV.include?("-r")
+ap hexagrams.sample if ARGV.include?("-r")
