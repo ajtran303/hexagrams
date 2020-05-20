@@ -2,7 +2,7 @@
 
 ## Explore the 64 Hexagrams as a data structure of nested collections.
 
-## `$ ruby hexagrams.rb`
+## `$ ruby lib/hexagrams.rb`
 
 <img width="522" alt="ap_hexagrams" src="https://user-images.githubusercontent.com/31839316/82480970-d607eb00-9a91-11ea-9492-6ef084540009.png">
 
