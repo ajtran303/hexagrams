@@ -1,7 +1,5 @@
 require "awesome_print"
 
-# An array of hashes
-
 hexagrams = [
   {
     number: 1,
