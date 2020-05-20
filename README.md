@@ -10,6 +10,9 @@
 
 ## `$ ruby lib/hexagrams.rb -r`
 
+<img width="628" alt="Screen Shot 2020-05-20 at 3 26 14 PM" src="https://user-images.githubusercontent.com/31839316/82499111-5a686700-9aae-11ea-9f37-cdaedbd7a30a.png">
+
+
 ## awesome_print
 
 This program requires the gem `awesome_print`.
