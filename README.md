@@ -6,6 +6,10 @@
 
 <img width="522" alt="ap_hexagrams" src="https://user-images.githubusercontent.com/31839316/82480970-d607eb00-9a91-11ea-9492-6ef084540009.png">
 
+## To get one random hexagram:
+
+## `$ ruby lib/hexagrams.rb -r`
+
 ## awesome_print
 
 This program requires the gem `awesome_print`.
