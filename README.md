@@ -19,7 +19,7 @@ I highly recommend checking out [the awesome_print documentation!](https://githu
 
 I use it to wrap my head around giant data structures!
 
-#### `gem install awesome_print`
+#### `$ gem install awesome_print`
 
 It is easiest to install gems while using an environment manager - I use `rbenv`.
 
