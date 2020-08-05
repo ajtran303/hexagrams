@@ -5,9 +5,9 @@ Explore the 64 Hexagrams as a data structure of nested collections.
 ## Setup
 
 ```zsh
-git clone
-cd
-gem install hexagram
+git clone git@github.com:ajtran303/hexagrams.git
+cd hexagrams
+gem install awesome_print
 ```
 
 ## Usage
