@@ -12,6 +12,7 @@ gem install hexagram
 
 ## Usage
 `$ ruby lib/hexagrams.rb` Get all hexagrams
+
 `$ ruby lib/hexagrams.rb -r` Get one hexagram
 
 <img width="522" alt="Screenshot of Hexagrams 19 and 20, named Approach and Contemplation." src="https://user-images.githubusercontent.com/31839316/82480970-d607eb00-9a91-11ea-9492-6ef084540009.png">
