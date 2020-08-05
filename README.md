@@ -1,21 +1,23 @@
 # hexagrams.rb
 
-## Explore the 64 Hexagrams as a data structure of nested collections.
+Explore the 64 Hexagrams as a data structure of nested collections.
 
-## `$ ruby lib/hexagrams.rb`
+## Setup
 
-<img width="522" alt="ap_hexagrams" src="https://user-images.githubusercontent.com/31839316/82480970-d607eb00-9a91-11ea-9492-6ef084540009.png">
+```zsh
+git clone
+cd
+gem install hexagram
+```
 
-## To get one random hexagram:
+## Usage
+`$ ruby lib/hexagrams.rb` Get all hexagrams
+`$ ruby lib/hexagrams.rb -r` Get one hexagram
 
-## `$ ruby lib/hexagrams.rb -r`
+<img width="522" alt="Screenshot of Hexagrams 19 and 20, named Approach and Contemplation." src="https://user-images.githubusercontent.com/31839316/82480970-d607eb00-9a91-11ea-9492-6ef084540009.png">
+<img width="628" alt="Screenshot of Hexagram 2, named Receptive Earth." src="https://user-images.githubusercontent.com/31839316/82499111-5a686700-9aae-11ea-9f37-cdaedbd7a30a.png">
 
-<img width="628" alt="Screen Shot 2020-05-20 at 3 26 14 PM" src="https://user-images.githubusercontent.com/31839316/82499111-5a686700-9aae-11ea-9f37-cdaedbd7a30a.png">
-
-
-## awesome_print
-
-This program requires the gem `awesome_print`.
+### awesome_print gem
 
 ```
 Pretty print your Ruby objects with style
@@ -26,11 +28,7 @@ I highly recommend checking out [the awesome_print documentation!](https://githu
 
 I use it to wrap my head around giant data structures!
 
-#### `$ gem install awesome_print`
-
-It is easiest to install gems while using an environment manager - I use `rbenv`.
-
-## What are hexagrams?
+### What are hexagrams?
 
 A hexagram is a symbol that represents life experiences. They have many qualities, such as numbers, names, and trigrams.
 
