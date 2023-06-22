@@ -4,21 +4,32 @@ Explore the 64 Hexagrams as a data structure of nested collections.
 
 ## Setup
 
-```zsh
+```bash
 git clone git@github.com:ajtran303/hexagrams.git
 cd hexagrams
-gem install awesome_print
+bundle install
+
+# try the program
+ruby runner.rb -r
 ```
 
 ## Usage
-`$ ruby lib/hexagrams.rb` Get all hexagrams
 
-`$ ruby lib/hexagrams.rb -r` Get one hexagram
+```bash
+  usage: $ ruby runner.rb [-h|-r|-a|NUMBER]
+      -h        Display this message
+      -r        Display random hexagram
+      -a        Display all hexagrams
+      NUMBER    Display numbered hexagram (1-64)
+```
+
+## Screenshots
 
 <img width="522" alt="Screenshot of Hexagrams 19 and 20, named Approach and Contemplation." src="https://user-images.githubusercontent.com/31839316/82480970-d607eb00-9a91-11ea-9492-6ef084540009.png">
+
 <img width="628" alt="Screenshot of Hexagram 2, named Receptive Earth." src="https://user-images.githubusercontent.com/31839316/82499111-5a686700-9aae-11ea-9f37-cdaedbd7a30a.png">
 
-### awesome_print gem
+## awesome_print gem
 
 ```
 Pretty print your Ruby objects with style
@@ -29,7 +40,7 @@ I highly recommend checking out [the awesome_print documentation!](https://githu
 
 I use it to wrap my head around giant data structures!
 
-### What are hexagrams?
+## What are hexagrams?
 
 A hexagram is a symbol that represents life experiences. They have many qualities, such as numbers, names, and trigrams.
 
