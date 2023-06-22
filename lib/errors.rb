@@ -1,9 +1,16 @@
 
 class CommandLineArgumentError < StandardError
-  DEFAULT_MESSAGE = 'Expected 1 argument. Use -h argument for more info.'
+  DEFAULT_MESSAGE = 'Expected 1 argument.'
+  USE_HELP_STRING = ' Use -h argument for more info.'
 
-  def initialize(msg = DEFAULT_MESSAGE)
-    super
+  def initialize(msg='')
+    msg = if msg == ''
+      DEFAULT_MESSAGE + USE_HELP_STRING
+    else
+      msg + USE_HELP_STRING
+    end
+
+    super(msg)
   end
 end
 

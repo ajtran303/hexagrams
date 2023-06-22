@@ -36,5 +36,5 @@ when '-r'
 when '-a'
   ap HexagramLibrary.hexagrams
 else
-  help_message
+  raise CommandLineArgumentError.new('Unknown argument.')
 end
